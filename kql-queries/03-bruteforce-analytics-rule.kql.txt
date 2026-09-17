@@ -1,0 +1,5 @@
+SecurityEvent
+| where EventID == 4625
+| where isnotempty(IpAddress) and IpAddress != "-"
+| summarize FailedAttempts = count(), TargetedAccounts = make_set(Account, 10) by IpAddress, Computer
+| where FailedAttempts >= 10

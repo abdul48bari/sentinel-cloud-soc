@@ -1,4 +1,4 @@
-# Cloud SIEM & SOAR — Microsoft Sentinel + Defender XDR with a Live Attack Map
+# Cloud SIEM & SOAR - Microsoft Sentinel + Defender XDR with a Live Attack Map
 
 > A cloud-native SOC lab: an internet-exposed Windows honeypot draws real-world attackers, their brute-force activity is detected in **Microsoft Sentinel** with **KQL**, plotted on a **live geo-IP attack map**, and auto-responded to with a **SOAR playbook** — all built inside the Azure free tier for **$6.34** total.
 
